@@ -6,7 +6,9 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5;
-  width: min(65ch, calc(100vw - 2em));
+  width: calc(100% - 2em);
+  max-width: 60ch;
+  margin: 0 auto;
 }
 
 h1,
